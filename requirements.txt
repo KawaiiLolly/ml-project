@@ -12,4 +12,5 @@ catboost
 xgboost
 dill
 flask
+setuptools
 -e .

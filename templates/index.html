@@ -1,1 +1,38 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to my Student Performance Prediction Page</h1>
+
+            <p>
+                This project predicts student mathematics performance using machine learning models.
+                Multiple regression models, i.e.. were trained on student exam data, and the best model was selected
+                based on the highest <strong>R² score</strong> for accurate prediction.
+            </p>
+
+            <p>
+                Features used include gender, ethnicity, parental education, lunch type,
+                test preparation course, reading score, and writing score.
+            </p>
+
+            <div class="button-container">
+                <a href="/predictdata" class="btn-link">Go to Predict Data</a>
+                <a href="/dataset" class="btn-link">View Dataset</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Narayan Hansdah | Student Performance ML Project | 2026
+    </footer>
+
+</body>
+</html>

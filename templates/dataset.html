@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dataset</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="dataset-container">
+      <h1>Student Dataset</h1>
+
+      <div class="table-wrapper">{{ tables | safe }}</div>
+
+      <div class="center-btn">
+        <a href="/" class="btn-link">&larr; Back to Home Page</a>
+      </div>
+    </div>
+
+    <footer>Narayan Hansdah | Student Performance ML Project | 2026</footer>
+  </body>
+</html>
